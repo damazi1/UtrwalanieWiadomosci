@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1633468702 source:d:\projekty\cppprojects\utrwalaniewiadomosci\main.cpp
+	<iostream>
+	<fstream>
+	<cstdlib>
+	<stdlib.h>
+	<ctype.h>
+

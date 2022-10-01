@@ -1,0 +1,49 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	cout << "kalkulator \n\n";
+	while (true)
+	{
+
+
+		cout << "wpisz dzialanie: ";
+
+		double l1;
+		double l2;
+		char znak;
+		double wynik;
+
+		cin >> l1 >> znak >> l2;
+
+		if (znak == '+')
+		{
+			wynik = l1 + l2;
+			cout << "wynik: " << wynik << endl
+				<< endl;
+		}
+		if (znak == '-')
+		{
+			wynik = l1 - l2;
+			cout << "wynik: " << wynik << endl
+				<< endl;
+		}
+		if (znak == '*')
+		{
+			wynik = l1 * l2;
+			cout << "wynik: " << wynik << endl
+				<< endl;
+		}
+		if (znak == '/')
+		{
+			wynik = l1 / l2;
+			cout << "wynik: " << wynik << endl
+				<< endl;
+		}
+	}
+	system("pause");
+	return 0;
+}
+
